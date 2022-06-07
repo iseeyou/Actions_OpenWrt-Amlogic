@@ -38,9 +38,9 @@ sed -i 's/invalid users = root/#invalid users = root/g' feeds/packages/net/samba
 
 # 拉取软件包
 
-#git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
-#git clone https://github.com/kenzok8/small-package package/small-package
-#git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
+git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+git clone https://github.com/kenzok8/small-package package/small-package
+git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
 #svn co https://github.com/immortalwrt-collections/openwrt-gowebdav/trunk/luci-app-gowebdav package/luci-app-gowebdav
 #svn co https://github.com/immortalwrt-collections/openwrt-gowebdav/trunk/gowebdav package/gowebdav
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
